@@ -4,9 +4,19 @@
 
 error_reporting(E_ALL);
 
-// require_once('couchsimple.php');
+require_once(dirname(__FILE__) . '/couchsimple.php');
+
+//----------------------------------------------------------------------------------------
+// http://stackoverflow.com/a/5996888/9684
+function translate_quoted($string) {
+  $search  = array("\\t", "\\n", "\\r");
+  $replace = array( "\t",  "\n",  "\r");
+  return str_replace($search, $replace, $string);
+}
 
 $count = 0;
+
+$stack = array();
 
 
 //----------------------------------------------------------------------------------------
@@ -50,11 +60,13 @@ function go($stack, $force = false, $follow = true)
 		// ensure https
 		
 		$id = preg_replace('/^http:/', 'https:', $id);
-	
+		
+		//print_r($stack);
 		echo "stack count=" . count($stack) . "\n";
+		
 	
-		//$exists = $couch->exists($id);
-		$exists = false;
+		$exists = $couch->exists($id);
+		//$exists = false;
 	
 		$go = true;
 		if ($exists && !$force)
@@ -85,17 +97,112 @@ function go($stack, $force = false, $follow = true)
 			{
 				$obj = json_decode($json);
 				
-				print_r($obj);
+				//print_r($obj);
 				//$json = json_encode($obj, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 				//file_put_contents($filename, $json);
-			
-				/*
+							
 				$doc = new stdclass;
 				$doc->_id = $id;
+				
+				$doc->{'message-type'} = 'unknown';
+				
+				// instances
+				if (preg_match('/https?:\/\/id.biodiversity.org.au\/instance\/apni\//', $id))
+				{
+					$doc->{'message-type'} = 'instance';
+					
+					//print_r($obj);
+					
+					// for now don't do "reference" as sometimes the file gets very big
+					$keys = array('name', 'cites', 'citedBy');
+					
+					foreach ($keys as $k)
+					{
+						if (isset($obj->instance->{$k}))
+						{
+							if (isset($obj->instance->{$k}->_links))
+							{
+								if (isset($obj->instance->{$k}->_links->permalink))
+								{			
+									$new_id = $obj->instance->{$k}->_links->permalink->link;
+									if (!$couch->exists($new_id))
+									{				
+										$stack[] = $new_id;
+									}
+								}		
+							}									
+						}					
+					}
+				}
+
+				// names
+				if (preg_match('/https?:\/\/id.biodiversity.org.au\/name\/apni\//', $id))
+				{
+					$doc->{'message-type'} = 'name';
+					
+					if (isset($obj->name->instances))
+					{
+						foreach ($obj->name->instances as $instance)
+						{
+							if (isset($instance->_links))
+							{
+								if (isset($instance->_links->permalink))
+								{		
+									$new_id = $instance->_links->permalink->link;
+									if (!$couch->exists($new_id))
+									{				
+										$stack[] = $new_id;
+									}
+								}		
+							}	
+						}								
+					}					
+					
+					
+					
+				}
+
+				// reference
+				if (preg_match('/https?:\/\/id.biodiversity.org.au\/reference\/apni\//', $id))
+				{
+					$doc->{'message-type'} = 'reference';
+				}
+				
+				// taxon
+				if (preg_match('/https:\/\/bie.ala.org.au\/species\/(?<id>.*)/', $id, $m))
+				{
+					$doc->{'message-type'} = 'taxon';	
+					
+					// name
+					if (isset($obj->taxonConcept))
+					{
+						$new_id = $obj->taxonConcept->scientificNameID;
+						if (!$couch->exists($new_id))
+						{				
+							$stack[] = $new_id;
+						}
+					}
+					
+					// synonyms
+					if (isset($obj->synonyms))
+					{
+						foreach ($obj->synonyms as $synonym)
+						{
+							$new_id = $synonym->nameGuid;
+							if (!$couch->exists($new_id))
+							{				
+								$stack[] = $new_id;
+							}
+						}					
+					}
+					
+						
+				}								
+				
 				$doc->message = $obj;
 			
-				//print_r($doc);
-	
+				//print_r($doc);	
+				
 				if (!$exists)
 				{
 					$couch->add_update_or_delete_document($doc, $doc->_id, 'add');	
@@ -107,26 +214,33 @@ function go($stack, $force = false, $follow = true)
 						$couch->add_update_or_delete_document($doc, $doc->_id, 'update');
 					}
 				}
+				
 			
 				// parent(s)
 			
 				// children
-				if ($follow)
+				if ($follow && $id_type == 'ala')
 				{
-					$url = 'https://bie.ala.org.au/ws/childConcepts/' . $id;
-					$json = get($url);			
-					if ($json)
+					if (preg_match('/https:\/\/bie.ala.org.au\/species\/(?<id>.*)/', $id, $m))
 					{
-						$obj = json_decode($json);
-				
-						foreach ($obj as $child)
+						$url = 'https://bie.ala.org.au/ws/childConcepts/' . $m['id'];
+						$json = get($url);			
+						if ($json)
 						{
-							$stack[] = $child->guid;
-						}
+							$obj = json_decode($json);
 				
+							foreach ($obj as $child)
+							{
+								if (preg_match('/node\/apni/', $child->guid))
+								{							
+									$stack[] = 'https://bie.ala.org.au/species/' . $child->guid;
+								}
+							}
+				
+						}
 					}
 				}
-				*/
+				
 			}
 			
 			// Give server a break every 10 items
@@ -145,18 +259,108 @@ function go($stack, $force = false, $follow = true)
 
 //----------------------------------------------------------------------------------------
 
+if (0)
+{
 
-$url = 'https://bie.ala.org.au/species/http://id.biodiversity.org.au/node/apni/2920348';
+	$url = 'https://bie.ala.org.au/species/http://id.biodiversity.org.au/node/apni/2920348';
 
-$stack = array();
-$stack[] = $url;
+	$stack = array();
+	$stack[] = $url;
 
-$stack[] = 'http://id.biodiversity.org.au/instance/apni/857883';
-$stack[] = 'https://id.biodiversity.org.au/name/apni/81525';
+	$stack[] = 'http://id.biodiversity.org.au/instance/apni/857883';
+	$stack[] = 'https://id.biodiversity.org.au/name/apni/81525';
 
-// add everything rooted at a subtree
-go($stack, true, true);
+	// Banksia scabrella
+	$stack = array();
+	$stack[] = 'https://bie.ala.org.au/species/http://id.biodiversity.org.au/node/apni/2910413';
 
+	$stack[] = 'https://bie.ala.org.au/species/http://id.biodiversity.org.au/node/apni/2920348';
+
+
+	$stack[] = 'https://id.biodiversity.org.au/name/apni/98247';
+
+	// Pterostylis (orcid)
+	$stack = array();
+	$stack[] = 'https://bie.ala.org.au/species/http://id.biodiversity.org.au/node/apni/2901128';
+
+	// add everything rooted at a subtree
+	go($stack, true, true);
+}
+
+if (1)
+{
+	// Add from file
+	
+	
+	$filename = 'APNI-names-2019-06-14-1229.csv';
+
+	$headings = array();
+
+	$row_count = 0;
+	
+	$skip = false;
+	$skip = true;
+	
+
+	$file = @fopen($filename, "r") or die("couldn't open $filename");
+		
+	$file_handle = fopen($filename, "r");
+	while (!feof($file_handle)) 
+	{
+		$row = fgetcsv(
+			$file_handle, 
+			0, 
+			translate_quoted(','),
+			translate_quoted('"') 
+			);
+		
+		$go = is_array($row);
+	
+		if ($go)
+		{
+			if ($row_count == 0)
+			{
+				$headings = $row;		
+			}
+			else
+			{
+				$obj = new stdclass;
+		
+				foreach ($row as $k => $v)
+				{
+					if ($v != '')
+					{
+						$obj->{$headings[$k]} = $v;
+					}
+				}
+		
+				//print_r($obj);	
+				
+				//echo $obj->scientificNameID . "\n";
+				
+				if ($skip)
+				{
+					if ($obj->scientificNameID == 'https://id.biodiversity.org.au/name/apni/73785')
+					{
+						$skip = false;
+						
+					}
+				}
+				
+				
+				if (!$skip)
+				{		
+					//echo "go\n";		
+					$stack = array($obj->scientificNameID);
+					go($stack, true, true);
+				}
+				
+			}
+		}	
+		$row_count++;
+	}	
+
+}
 /*
 if (0)
 {

@@ -1,0 +1,22 @@
+
+
+Linking names to the literature in ALA
+
+Summary:
+
+We've built a live demo of what the ALA "Names" tab could look like if it is populated with the taxonomic literature linked to publishers web sites (using DOIs) and BHL. We think this will make ALA more useful to its audience, will increase the visibility of the work of taxonomists, and help strengthen the relationship between ALA and BHL. You can see the demo here: https://ozymandias-demo.herokuapp.com/alademo.php?q=Pauropsalta+herveyensis+Owen+%26+Moulds%2C+2016
+
+Background:
+
+There have been many discussions over the past few years about doing this and the concept has always been met with great enthusiasm. Nicole has given a talk on this topic and was met with a standing ovation! However, this enthusiasm hasn't translated into action. A stumbling block has been how we would collect and deliver all the citation data. Rod's Ozymandias project provides a way to bootstrap this as his project is based on making those links. As a proof of concept we've put together a deo web page that is modelled on ALA's current "Names" tab, but replaces a confusing array of links with a list of the names and associated publications, where possible linked to DOIs, BHL, and other identifiers. As an extra tweak we use a service from Unpaywall to check whether a paper with a DOI is available to read for free. 
+
+The point of the demo is to show that (a) a considerable number of links to both modern and legacy literature are available and (b) this information can be readily incorporated into the existing ALA interface.
+
+If ALA is interested in making this happen it would be useful to discuss how to get the data into ALA. At the moment this is all running of an experimental site Rod uses to explore using triple stores and linked data to model biodiversity data. A more stable approach would be for ALA to have access to a data set that it can harvest. It is likely that the existing "References" extension to Darwin Core Archive be used (which is how this data would be supplied to GBIF, for example). It would also be useful to explore how to extend the existing mapping, notably to plants, which present a rather different challenge to animals.
+
+We're really excited by this demo and hope it illustrates one way of bringing in links to the scientific literature. Feedback, comments and suggestions are welcome.
+
+Rod & Nicole
+
+
+
