@@ -340,10 +340,11 @@ if (1)
 				
 				if ($skip)
 				{
-					if ($obj->scientificNameID == 'https://id.biodiversity.org.au/name/apni/73785')
+					$start_id = 'https://id.biodiversity.org.au/name/apni/73785';
+					$start_id = 'https://id.biodiversity.org.au/name/apni/692935;
+					if ($obj->scientificNameID == $start_id)
 					{
-						$skip = false;
-						
+						$skip = false;						
 					}
 				}
 				

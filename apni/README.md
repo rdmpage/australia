@@ -34,6 +34,16 @@ URL: http://id.biodiversity.org.au/name/apni/94717
 
 The instances are citations of this name, linked to references.
 
+## Map APNI to IPNI
+
+The APNI numbers in IPNI seem to have no relation to the current APNI. We can do a SQL query to match relevant records to IPNI:
+
+```
+SELECT instance_id, instanceType, name_id, name_text, Id, reference_text, Publication, issn, doi, jstor, url FROM nsl INNER JOIN names ON nsl.name_text = names.Full_name_without_family_and_authors WHERE reference_text LIKE "%(20%" AND instanceType IN ('comb. nov.', 'tax. nov.') AND (Id LIKE "%-1") ORDER BY Publication;
+```
+
+This matches to the Kew IPNI ids (“%-1”), restricts the mapping to 'comb. nov.' and 'tax. nov.' (which matches what IPNI tracks), and displays some bibliographic data from my mapping. I don’t map to APNI ids in IPNI as they usually have poorer bibliographic data in IPNI, and don’t match anything in NSL anyway.
+
 
 ## Get APNI names and APC taxa in bulk
 
@@ -70,3 +80,5 @@ taxonConceptID: "urn:lsid:biodiversity.org.au:afd.taxon:b43ea8d4-bf8e-416d-9d46-
 scientificNameID: "urn:lsid:biodiversity.org.au:afd.name:332226"
 
 guid = taxonConceptID
+
+
