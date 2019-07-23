@@ -2610,9 +2610,12 @@ $author_uris=array(
  "https://biodiversity.org.au/afd/publication/#creator/l-l-moroz" ,
  );
  
+ $author_uris=array(
+ 'https://biodiversity.org.au/afd/publication/%23creator/o-f-anderson'
+ );
 
 
-if (0)
+if (1)
 {
 	foreach ($author_uris as $author_uri)
 	{
@@ -2629,7 +2632,7 @@ if (0)
 		$sql = 'INSERT IGNORE INTO afd_author_matching(author_uri, name) VALUES("' . addcslashes($author_uri, '"') . '", "' . addcslashes($name, '"') . '");';
 		echo $sql . "\n";	
 	}
-	exit();
+	//exit();
 }
 
 
@@ -2644,7 +2647,7 @@ foreach ($author_uris as $author_uri)
 	$data_obj = new stdclass;
 	$data_obj->author_uri = $author_uri;
 	
-	if (0)
+	if (1)
 	{
 		$data_obj = wikispecies_match($data_obj);
 	}

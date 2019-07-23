@@ -259,7 +259,7 @@ function go($stack, $force = false, $follow = true)
 
 //----------------------------------------------------------------------------------------
 
-if (0)
+if (1)
 {
 
 	$url = 'https://bie.ala.org.au/species/http://id.biodiversity.org.au/node/apni/2920348';
@@ -285,12 +285,15 @@ if (0)
 
 	$stack = array();
 	$stack[] = 'https://bie.ala.org.au/species/http://id.biodiversity.org.au/name/apni/101168';
+	
+	// Missed in CSV harvest(!?)
+	$stack[] = 'https://bie.ala.org.au/species/http://id.biodiversity.org.au/name/apni/147819';
 
 	// add everything rooted at a subtree
 	go($stack, true, true);
 }
 
-if (1)
+if (0)
 {
 	// Add from file
 	
@@ -349,6 +352,14 @@ if (1)
 					$start_id = 'https://id.biodiversity.org.au/name/apni/92943';
 					$start_id = 'https://id.biodiversity.org.au/name/apni/107831';
 					$start_id = 'https://id.biodiversity.org.au/name/apni/76255';
+					$start_id = 'https://id.biodiversity.org.au/name/apni/115898';
+					$start_id = 'https://id.biodiversity.org.au/name/apni/95617';
+					$start_id = 'https://id.biodiversity.org.au/name/apni/57483';
+					$start_id = 'https://id.biodiversity.org.au/name/apni/65863';
+					$start_id = 'https://id.biodiversity.org.au/name/apni/50738549';
+					$start_id = 'https://id.biodiversity.org.au/name/apni/96879';
+					$start_id = 'https://id.biodiversity.org.au/name/apni/151959';
+					$start_id = 'https://id.biodiversity.org.au/name/apni/56601';
 					
 					if ($obj->scientificNameID == $start_id)
 					{

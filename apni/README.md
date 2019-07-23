@@ -1,6 +1,6 @@
 # ALA
 
-In ALA an identifiers of the form http://id.biodiversity.org.au/node/apni/ is a **taxon**, e.g. https://bie.ala.org.au/species/http://id.biodiversity.org.au/node/apni/2920348 (*Caldesia acanthocarpa* (F.Muell.) Buchenau). The JSON form is available from https://bie-ws.ala.org.au/ws/species/http://id.biodiversity.org.au/node/apni/2920348.json.
+In ALA an identifier of the form http://id.biodiversity.org.au/node/apni/ is a **taxon**, e.g. https://bie.ala.org.au/species/http://id.biodiversity.org.au/node/apni/2920348 (*Caldesia acanthocarpa* (F.Muell.) Buchenau). The JSON form is available from https://bie-ws.ala.org.au/ws/species/http://id.biodiversity.org.au/node/apni/2920348.json.
 
 ```
 …
