@@ -1,0 +1,569 @@
+<http://www.wikidata.org/entity/Q28938177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/name> "The socially parasitic ant genus Strongylognathus Mayr in North Africa (Insecta: Hymenoptera: Formicidae)"@en .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938177#doi> .
+<http://www.wikidata.org/entity/Q28938177#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938177#doi> <http://schema.org/value> "10.11646/zootaxa.20.1.1" .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.20.1.1" .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/volumeNumber> "20" .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/pagination> "1–20" .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/datePublished> "2001-12-22" .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938177#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938177#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938177#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:38EC9B99-3180-4F77-984F-AEC2A43AB131" .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:38EC9B99-3180-4F77-984F-AEC2A43AB131" .
+<http://www.wikidata.org/entity/Q28938177#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938177#creator_1> <http://schema.org/name> "Matthias Sanetra" .
+<http://www.wikidata.org/entity/Q28938177#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938177#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938177#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938177#creator_1> .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938177#role/1> .
+<http://www.wikidata.org/entity/Q28938177#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938177#creator_2> <http://schema.org/name> "Robert Güsten" .
+<http://www.wikidata.org/entity/Q28938177#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938177#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938177#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938177#creator_2> .
+<http://www.wikidata.org/entity/Q28938177> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938177#role/2> .
+
+<http://www.wikidata.org/entity/Q28938178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/name> "A new tanaidacean subfamily, Bathytanaidinae (Crustacea: Paratanaididae), from the Australian continental shelf and slope"@en .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938178#doi> .
+<http://www.wikidata.org/entity/Q28938178#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938178#doi> <http://schema.org/value> "10.11646/zootaxa.19.1.1" .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.19.1.1" .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/volumeNumber> "19" .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/pagination> "1–22" .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/datePublished> "2001-12-21" .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938178#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938178#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938178#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:B9B4322E-4550-46A7-A34B-3A8392156A7C" .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:B9B4322E-4550-46A7-A34B-3A8392156A7C" .
+<http://www.wikidata.org/entity/Q28938178#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938178#creator_1> <http://schema.org/name> "Kim Larsen" .
+<http://www.wikidata.org/entity/Q28938178#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938178#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938178#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938178#creator_1> .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938178#role/1> .
+<http://www.wikidata.org/entity/Q28938178#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938178#creator_2> <http://schema.org/name> "Richard W. Heard" .
+<http://www.wikidata.org/entity/Q28938178#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938178#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938178#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938178#creator_2> .
+<http://www.wikidata.org/entity/Q28938178> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938178#role/2> .
+
+<http://www.wikidata.org/entity/Q28938179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938179> <http://schema.org/name> "Stygohydracarus karanovici sp.n., and Atractides inflatipes Lundblad, 1956, two water mites species (Acari: Hydrachnidia) from Montenegro (SE Europe)"@en .
+<http://www.wikidata.org/entity/Q28938179> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938179#doi> .
+<http://www.wikidata.org/entity/Q28938179#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938179#doi> <http://schema.org/value> "10.11646/zootaxa.17.1.1" .
+<http://www.wikidata.org/entity/Q28938179> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.17.1.1" .
+<http://www.wikidata.org/entity/Q28938179> <http://schema.org/volumeNumber> "17" .
+<http://www.wikidata.org/entity/Q28938179> <http://schema.org/pagination> "1–7" .
+<http://www.wikidata.org/entity/Q28938179> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938179> <http://schema.org/datePublished> "2001-12-20" .
+<http://www.wikidata.org/entity/Q28938179> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938179> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938179#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938179#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938179#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:5DC9BC36-AD2C-48AE-9DED-E5D759D6E6BA" .
+<http://www.wikidata.org/entity/Q28938179> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:5DC9BC36-AD2C-48AE-9DED-E5D759D6E6BA" .
+<http://www.wikidata.org/entity/Q28938179#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938179#creator_1> <http://schema.org/name> "Vladimir M. Pesic" .
+<http://www.wikidata.org/entity/Q28938179#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938179#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938179#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938179#creator_1> .
+<http://www.wikidata.org/entity/Q28938179> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938179#role/1> .
+
+<http://www.wikidata.org/entity/Q28938180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/name> "Saltipedis navassensis, a new species of apseudomorph tanaidacean (Crustacea: Peracarida: Parapseudidae) from the tropical north-western Atlantic"@en .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938180#doi> .
+<http://www.wikidata.org/entity/Q28938180#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938180#doi> <http://schema.org/value> "10.11646/zootaxa.18.1.1" .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.18.1.1" .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/volumeNumber> "18" .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/pagination> "1–11" .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/datePublished> "2001-12-20" .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938180#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938180#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938180#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:688BE888-50EF-4CFF-B174-7274F0387C01" .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:688BE888-50EF-4CFF-B174-7274F0387C01" .
+<http://www.wikidata.org/entity/Q28938180#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938180#creator_1> <http://schema.org/name> "Tom Hansknecht" .
+<http://www.wikidata.org/entity/Q28938180#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938180#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938180#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938180#creator_1> .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938180#role/1> .
+<http://www.wikidata.org/entity/Q28938180#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938180#creator_2> <http://schema.org/name> "Richard W. Heard" .
+<http://www.wikidata.org/entity/Q28938180#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938180#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938180#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938180#creator_2> .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938180#role/2> .
+<http://www.wikidata.org/entity/Q28938180#creator_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938180#creator_3> <http://schema.org/name> "Joel W. Martin" .
+<http://www.wikidata.org/entity/Q28938180#role/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938180#role/3> <http://schema.org/roleName> "3" .
+<http://www.wikidata.org/entity/Q28938180#role/3> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938180#creator_3> .
+<http://www.wikidata.org/entity/Q28938180> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938180#role/3> .
+
+<http://www.wikidata.org/entity/Q28938182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938182> <http://schema.org/name> "Revision of the Agrilus plasoni species group (Coleoptera: Buprestidae)"@en .
+<http://www.wikidata.org/entity/Q28938182> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938182#doi> .
+<http://www.wikidata.org/entity/Q28938182#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938182#doi> <http://schema.org/value> "10.11646/zootaxa.13.1.1" .
+<http://www.wikidata.org/entity/Q28938182> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.13.1.1" .
+<http://www.wikidata.org/entity/Q28938182> <http://schema.org/volumeNumber> "13" .
+<http://www.wikidata.org/entity/Q28938182> <http://schema.org/pagination> "1–11" .
+<http://www.wikidata.org/entity/Q28938182> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938182> <http://schema.org/datePublished> "2001-11-22" .
+<http://www.wikidata.org/entity/Q28938182> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938182> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938182#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938182#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938182#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:C2C94DF9-2CE6-4C62-A5C9-91B77083F7E3" .
+<http://www.wikidata.org/entity/Q28938182> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:C2C94DF9-2CE6-4C62-A5C9-91B77083F7E3" .
+<http://www.wikidata.org/entity/Q21391666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q21391666> <http://schema.org/name> "Eduard Jendek"@en .
+<http://www.wikidata.org/entity/Q21391666> <http://schema.org/name> "Eduard Jendek"@nl .
+<http://www.wikidata.org/entity/Q21391666> <http://schema.org/name> "Eduard Jendek"@es .
+<http://www.wikidata.org/entity/Q21391666> <http://schema.org/name> "Eduard Jendek"@ast .
+<http://www.wikidata.org/entity/Q21391666> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q21391666#orcid> .
+<http://www.wikidata.org/entity/Q21391666#orcid> <http://schema.org/propertyID> "orcid" .
+<http://www.wikidata.org/entity/Q21391666#orcid> <http://schema.org/value> "0000-0003-3928-6491" .
+<http://www.wikidata.org/entity/Q21391666> <http://schema.org/sameAs> "https://orcid.org/0000-0003-3928-6491" .
+<http://www.wikidata.org/entity/Q28938182#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938182#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938182#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q21391666> .
+<http://www.wikidata.org/entity/Q28938182> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938182#role/1> .
+
+<http://www.wikidata.org/entity/Q28938183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938183> <http://schema.org/name> "Revision of the generic classification of the hawkfishes (Cirrhitidae), with descriptions of three new genera"@en .
+<http://www.wikidata.org/entity/Q28938183> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938183#doi> .
+<http://www.wikidata.org/entity/Q28938183#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938183#doi> <http://schema.org/value> "10.11646/zootaxa.12.1.1" .
+<http://www.wikidata.org/entity/Q28938183> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.12.1.1" .
+<http://www.wikidata.org/entity/Q28938183> <http://schema.org/volumeNumber> "12" .
+<http://www.wikidata.org/entity/Q28938183> <http://schema.org/pagination> "1–12" .
+<http://www.wikidata.org/entity/Q28938183> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938183> <http://schema.org/datePublished> "2001-11-07" .
+<http://www.wikidata.org/entity/Q28938183> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938183> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938183#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938183#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938183#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:E3F3B85F-4DB1-442C-9F05-61F90D5806F2" .
+<http://www.wikidata.org/entity/Q28938183> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:E3F3B85F-4DB1-442C-9F05-61F90D5806F2" .
+<http://www.wikidata.org/entity/Q28938183#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938183#creator_1> <http://schema.org/name> "John E. Randall" .
+<http://www.wikidata.org/entity/Q28938183#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938183#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938183#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938183#creator_1> .
+<http://www.wikidata.org/entity/Q28938183> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938183#role/1> .
+
+<http://www.wikidata.org/entity/Q28938184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/name> "A new species of Gieysztoria (Platyhelminthes; Rhabdocoela; Dalyelliidae) from a freshwater lake in Queensland, Australia"@en .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938184#doi> .
+<http://www.wikidata.org/entity/Q28938184#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938184#doi> <http://schema.org/value> "10.11646/zootaxa.11.1.1" .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.11.1.1" .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/volumeNumber> "11" .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/pagination> "1–8" .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/datePublished> "2001-11-05" .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938184#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938184#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938184#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:CEDCAC99-8750-4F6E-973F-01B6F184582C" .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:CEDCAC99-8750-4F6E-973F-01B6F184582C" .
+<http://www.wikidata.org/entity/Q28938184#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938184#creator_1> <http://schema.org/name> "Rick Hochberg" .
+<http://www.wikidata.org/entity/Q28938184#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938184#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938184#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938184#creator_1> .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938184#role/1> .
+<http://www.wikidata.org/entity/Q28938184#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938184#creator_2> <http://schema.org/name> "Lester R. G. Cannon" .
+<http://www.wikidata.org/entity/Q28938184#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938184#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938184#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938184#creator_2> .
+<http://www.wikidata.org/entity/Q28938184> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938184#role/2> .
+
+<http://www.wikidata.org/entity/Q28938186> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938186> <http://schema.org/name> "Taxonomic diagnosis of Dicyrtomina ornata and D. saundersi (Collembola: Dicyrtomidae) and analysis of their population genetic structure"@en .
+<http://www.wikidata.org/entity/Q28938186> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938186#doi> .
+<http://www.wikidata.org/entity/Q28938186#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938186#doi> <http://schema.org/value> "10.11646/zootaxa.10.1.1" .
+<http://www.wikidata.org/entity/Q28938186> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.10.1.1" .
+<http://www.wikidata.org/entity/Q28938186> <http://schema.org/volumeNumber> "10" .
+<http://www.wikidata.org/entity/Q28938186> <http://schema.org/pagination> "1–16" .
+<http://www.wikidata.org/entity/Q28938186> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938186> <http://schema.org/datePublished> "2001-10-29" .
+<http://www.wikidata.org/entity/Q28938186> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938186> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938186#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938186#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938186#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:EF08C227-69BC-4843-82B3-4956E327FC00" .
+<http://www.wikidata.org/entity/Q28938186> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:EF08C227-69BC-4843-82B3-4956E327FC00" .
+<http://www.wikidata.org/entity/Q28938186#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938186#creator_1> <http://schema.org/name> "Pietro Paolo Fanciulli Et Al" .
+<http://www.wikidata.org/entity/Q28938186#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938186#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938186#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938186#creator_1> .
+<http://www.wikidata.org/entity/Q28938186> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938186#role/1> .
+
+<http://www.wikidata.org/entity/Q28938187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/name> "New eriophyoid mites (Acari: Eriophyoidea) associated with grasses from Mongolia"@en .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938187#doi> .
+<http://www.wikidata.org/entity/Q28938187#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938187#doi> <http://schema.org/value> "10.11646/zootaxa.9.1.1" .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.9.1.1" .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/volumeNumber> "9" .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/pagination> "1–18" .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/datePublished> "2001-10-25" .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938187#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938187#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938187#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:CA1A5F10-7CBE-4C66-884A-C0E04A4D6B46" .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:CA1A5F10-7CBE-4C66-884A-C0E04A4D6B46" .
+<http://www.wikidata.org/entity/Q28938187#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938187#creator_1> <http://schema.org/name> "Anna Skoracka" .
+<http://www.wikidata.org/entity/Q28938187#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938187#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938187#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938187#creator_1> .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938187#role/1> .
+<http://www.wikidata.org/entity/Q28938187#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938187#creator_2> <http://schema.org/name> "Aoxiang Shi" .
+<http://www.wikidata.org/entity/Q28938187#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938187#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938187#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938187#creator_2> .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938187#role/2> .
+<http://www.wikidata.org/entity/Q28938187#creator_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938187#creator_3> <http://schema.org/name> "Anna Pacyna" .
+<http://www.wikidata.org/entity/Q28938187#role/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938187#role/3> <http://schema.org/roleName> "3" .
+<http://www.wikidata.org/entity/Q28938187#role/3> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938187#creator_3> .
+<http://www.wikidata.org/entity/Q28938187> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938187#role/3> .
+
+<http://www.wikidata.org/entity/Q28938188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/name> "New phytoseiid mites (Acari: Phytoseiidae) from tropical Africa"@en .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938188#doi> .
+<http://www.wikidata.org/entity/Q28938188#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938188#doi> <http://schema.org/value> "10.11646/zootaxa.8.1.1" .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.8.1.1" .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/volumeNumber> "8" .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/pagination> "1–10" .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/datePublished> "2001-09-14" .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938188#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938188#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938188#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:8960994D-A0C3-456C-8014-5C3DE34943CE" .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:8960994D-A0C3-456C-8014-5C3DE34943CE" .
+<http://www.wikidata.org/entity/Q28938188#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938188#creator_1> <http://schema.org/name> "G。 J. De Moraes" .
+<http://www.wikidata.org/entity/Q28938188#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938188#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938188#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938188#creator_1> .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938188#role/1> .
+<http://www.wikidata.org/entity/Q28938188#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938188#creator_2> <http://schema.org/name> "A. R. Oliveira" .
+<http://www.wikidata.org/entity/Q28938188#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938188#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938188#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938188#creator_2> .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938188#role/2> .
+<http://www.wikidata.org/entity/Q28938188#creator_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938188#creator_3> <http://schema.org/name> "I. D. Zannou" .
+<http://www.wikidata.org/entity/Q28938188#role/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938188#role/3> <http://schema.org/roleName> "3" .
+<http://www.wikidata.org/entity/Q28938188#role/3> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938188#creator_3> .
+<http://www.wikidata.org/entity/Q28938188> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938188#role/3> .
+
+<http://www.wikidata.org/entity/Q28938189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/name> "Description of the pupal exuviae of some species belonging to Orthocladius s. str. van der Wulp, 1874 (Diptera: Chironomidae: Orthocladiinae), with a new key to species of West Palaearctic region"@en .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938189#doi> .
+<http://www.wikidata.org/entity/Q28938189#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938189#doi> <http://schema.org/value> "10.11646/zootaxa.7.1.1" .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.7.1.1" .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/volumeNumber> "7" .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/pagination> "1–20" .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/datePublished> "2001-08-31" .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938189#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938189#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938189#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:B8D6DBE1-9599-4328-A653-6B10532F5C48" .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:B8D6DBE1-9599-4328-A653-6B10532F5C48" .
+<http://www.wikidata.org/entity/Q28938189#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938189#creator_1> <http://schema.org/name> "Bruno Rossaro" .
+<http://www.wikidata.org/entity/Q28938189#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938189#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938189#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938189#creator_1> .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938189#role/1> .
+<http://www.wikidata.org/entity/Q28938189#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938189#creator_2> <http://schema.org/name> "Carlotta Casalegno" .
+<http://www.wikidata.org/entity/Q28938189#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938189#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938189#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938189#creator_2> .
+<http://www.wikidata.org/entity/Q28938189> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938189#role/2> .
+
+<http://www.wikidata.org/entity/Q28938190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/name> "Aphidius linosiphonis sp. n. (Hymenoptera; Braconidae; Aphidiinae), a new member of the aphid parasitoid guild associated with Galium"@en .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938190#doi> .
+<http://www.wikidata.org/entity/Q28938190#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938190#doi> <http://schema.org/value> "10.11646/zootaxa.6.1.1" .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.6.1.1" .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/volumeNumber> "6" .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/pagination> "1–4" .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/datePublished> "2001-08-29" .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938190#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938190#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938190#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:C851A2E0-44F0-42A4-AC91-66A69DDD469A" .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:C851A2E0-44F0-42A4-AC91-66A69DDD469A" .
+<http://www.wikidata.org/entity/Q28938190#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938190#creator_1> <http://schema.org/name> "Zeljko Tomanovic" .
+<http://www.wikidata.org/entity/Q28938190#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938190#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938190#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938190#creator_1> .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938190#role/1> .
+<http://www.wikidata.org/entity/Q28938190#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938190#creator_2> <http://schema.org/name> "Petr Starý" .
+<http://www.wikidata.org/entity/Q28938190#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938190#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938190#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938190#creator_2> .
+<http://www.wikidata.org/entity/Q28938190> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938190#role/2> .
+
+<http://www.wikidata.org/entity/Q28938191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/name> "A new species of Calacarus Keifer (Acari: Eriophyidae) on papaya in northeastern Brazil"@en .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938191#doi> .
+<http://www.wikidata.org/entity/Q28938191#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938191#doi> <http://schema.org/value> "10.11646/zootaxa.5.1.1" .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.5.1.1" .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/volumeNumber> "5" .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/pagination> "1–5" .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/datePublished> "2001-08-17" .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938191#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938191#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938191#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:B84A4EC4-47B2-4724-B9A0-94A312347BA8" .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:B84A4EC4-47B2-4724-B9A0-94A312347BA8" .
+<http://www.wikidata.org/entity/Q28938191#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938191#creator_1> <http://schema.org/name> "Carlos H. W. Flechtmann" .
+<http://www.wikidata.org/entity/Q28938191#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938191#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938191#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938191#creator_1> .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938191#role/1> .
+<http://www.wikidata.org/entity/Q28938191#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938191#creator_2> <http://schema.org/name> "Gilberto J. De Moraes" .
+<http://www.wikidata.org/entity/Q28938191#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938191#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938191#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938191#creator_2> .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938191#role/2> .
+<http://www.wikidata.org/entity/Q28938191#creator_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938191#creator_3> <http://schema.org/name> "Flávia R. Barbosa" .
+<http://www.wikidata.org/entity/Q28938191#role/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938191#role/3> <http://schema.org/roleName> "3" .
+<http://www.wikidata.org/entity/Q28938191#role/3> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938191#creator_3> .
+<http://www.wikidata.org/entity/Q28938191> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938191#role/3> .
+
+<http://www.wikidata.org/entity/Q28938192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/name> "Crenidorsum aroidephagus Martin & Aguiar sp. nov. (Sternorrhyncha: Aleyrodidae), a New World whitefly species now colonising cultivated Araceae in Europe, Macaronesia and The Pacific Region"@en .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938192#doi> .
+<http://www.wikidata.org/entity/Q28938192#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938192#doi> <http://schema.org/value> "10.11646/zootaxa.4.1.1" .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.4.1.1" .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/volumeNumber> "4" .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/pagination> "1–8" .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/datePublished> "2001-07-30" .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938192#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938192#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938192#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:B16902B8-81FB-4725-821D-09D49219B9E1" .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:B16902B8-81FB-4725-821D-09D49219B9E1" .
+<http://www.wikidata.org/entity/Q28938192#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938192#creator_1> <http://schema.org/name> "J. H. Martin" .
+<http://www.wikidata.org/entity/Q28938192#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938192#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938192#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938192#creator_1> .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938192#role/1> .
+<http://www.wikidata.org/entity/Q28938192#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938192#creator_2> <http://schema.org/name> "A. M. F. Aguiar" .
+<http://www.wikidata.org/entity/Q28938192#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938192#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938192#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938192#creator_2> .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938192#role/2> .
+<http://www.wikidata.org/entity/Q28938192#creator_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938192#creator_3> <http://schema.org/name> "P. Baufeld" .
+<http://www.wikidata.org/entity/Q28938192#role/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938192#role/3> <http://schema.org/roleName> "3" .
+<http://www.wikidata.org/entity/Q28938192#role/3> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938192#creator_3> .
+<http://www.wikidata.org/entity/Q28938192> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938192#role/3> .
+
+<http://www.wikidata.org/entity/Q28938193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/name> "Phytoseiid mites of the genus Euseius (Acari: Phytoseiidae) from Sub-Saharan Africa"@en .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938193#doi> .
+<http://www.wikidata.org/entity/Q28938193#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938193#doi> <http://schema.org/value> "10.11646/zootaxa.3.1.1" .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.3.1.1" .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/volumeNumber> "3" .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/pagination> "1–70" .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/datePublished> "2001-07-30" .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938193#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938193#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938193#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:A6821FE8-6856-4854-B5D4-5AD02F361077" .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:A6821FE8-6856-4854-B5D4-5AD02F361077" .
+<http://www.wikidata.org/entity/Q28938193#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938193#creator_1> <http://schema.org/name> "G. J. De Moraes" .
+<http://www.wikidata.org/entity/Q28938193#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938193#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938193#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938193#creator_1> .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938193#role/1> .
+<http://www.wikidata.org/entity/Q28938193#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938193#creator_2> <http://schema.org/name> "E. A. Ueckermann" .
+<http://www.wikidata.org/entity/Q28938193#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938193#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938193#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938193#creator_2> .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938193#role/2> .
+<http://www.wikidata.org/entity/Q28938193#creator_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938193#creator_3> <http://schema.org/name> "A. R. Oliveira" .
+<http://www.wikidata.org/entity/Q28938193#role/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938193#role/3> <http://schema.org/roleName> "3" .
+<http://www.wikidata.org/entity/Q28938193#role/3> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938193#creator_3> .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938193#role/3> .
+<http://www.wikidata.org/entity/Q28938193#creator_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938193#creator_4> <http://schema.org/name> "J. S. Yaninek" .
+<http://www.wikidata.org/entity/Q28938193#role/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938193#role/4> <http://schema.org/roleName> "4" .
+<http://www.wikidata.org/entity/Q28938193#role/4> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938193#creator_4> .
+<http://www.wikidata.org/entity/Q28938193> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938193#role/4> .
+
+<http://www.wikidata.org/entity/Q28938194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/name> "Whiteflies (Sternorrhyncha, Aleyrodidae) colonising ferns (Pteridophyta: Filicopsida), with descriptions of two new Trialeurodes and one new Metabemisia species from south-east Asia"@en .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938194#doi> .
+<http://www.wikidata.org/entity/Q28938194#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938194#doi> <http://schema.org/value> "10.11646/zootaxa.2.1.1" .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.2.1.1" .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/volumeNumber> "2" .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/pagination> "1–19" .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/datePublished> "2001-07-27" .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938194#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938194#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938194#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:6A6D5028-A2E4-45D9-AA2E-7FD4EBED98FF" .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:6A6D5028-A2E4-45D9-AA2E-7FD4EBED98FF" .
+<http://www.wikidata.org/entity/Q28938194#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938194#creator_1> <http://schema.org/name> "Jon H. Martin" .
+<http://www.wikidata.org/entity/Q28938194#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938194#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938194#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938194#creator_1> .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938194#role/1> .
+<http://www.wikidata.org/entity/Q28938194#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938194#creator_2> <http://schema.org/name> "Josephine M. Camus" .
+<http://www.wikidata.org/entity/Q28938194#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938194#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938194#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938194#creator_2> .
+<http://www.wikidata.org/entity/Q28938194> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938194#role/2> .
+
+<http://www.wikidata.org/entity/Q28938195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/name> "A new species of Tenuipalpidae (Acari: Prostigmata) on orchid from Brazil"@en .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938195#doi> .
+<http://www.wikidata.org/entity/Q28938195#doi> <http://schema.org/propertyID> "doi" .
+<http://www.wikidata.org/entity/Q28938195#doi> <http://schema.org/value> "10.11646/zootaxa.1.1.1" .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/sameAs> "https://doi.org/10.11646/zootaxa.1.1.1" .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/volumeNumber> "1" .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/pagination> "1–10" .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/issueNumber> "1" .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/datePublished> "2001-05-28" .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/isPartOf> <http://www.wikidata.org/entity/Q220370> .
+<http://www.wikidata.org/entity/Q220370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5326" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/issn> "1175-5334" .
+<http://www.wikidata.org/entity/Q220370> <http://schema.org/name> "Zootaxa"@en .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/identifier> <http://www.wikidata.org/entity/Q28938195#zoobankpub> .
+<http://www.wikidata.org/entity/Q28938195#zoobankpub> <http://schema.org/propertyID> "zoobank" .
+<http://www.wikidata.org/entity/Q28938195#zoobankpub> <http://schema.org/value> "urn:lsid:zoobank.org:pub:4CA7301C-29BC-403B-84F3-B24E7740A0BF" .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/sameAs> "urn:lsid:zoobank.org:pub:4CA7301C-29BC-403B-84F3-B24E7740A0BF" .
+<http://www.wikidata.org/entity/Q28938195#creator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938195#creator_1> <http://schema.org/name> "G. J. De Moraes" .
+<http://www.wikidata.org/entity/Q28938195#role/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938195#role/1> <http://schema.org/roleName> "1" .
+<http://www.wikidata.org/entity/Q28938195#role/1> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938195#creator_1> .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938195#role/1> .
+<http://www.wikidata.org/entity/Q28938195#creator_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://www.wikidata.org/entity/Q28938195#creator_2> <http://schema.org/name> "R. A. P. Freire" .
+<http://www.wikidata.org/entity/Q28938195#role/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://www.wikidata.org/entity/Q28938195#role/2> <http://schema.org/roleName> "2" .
+<http://www.wikidata.org/entity/Q28938195#role/2> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938195#creator_2> .
+<http://www.wikidata.org/entity/Q28938195> <http://schema.org/creator> <http://www.wikidata.org/entity/Q28938195#role/2> .
+

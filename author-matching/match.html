@@ -1,0 +1,148 @@
+<html>
+<head>
+
+<style>
+body {
+	padding-left:40px;
+	padding-right:40px;
+	font-family: sans-serif;
+}
+</style>		
+
+<script src="jquery.js"></script>
+
+<script>
+
+       //--------------------------------------------------------------------------------
+		function wikidata_author_name(name, element_id) {
+		   
+		   //alert(name);
+		   
+			var sparql = `SELECT 
+?work ?title ?container_label ?author_order 
+?author_name
+{ 
+ ?statement ps:P2093 "` + name + `" .
+ ?work p:P2093 ?statement.
+ ?statement pq:P1545 ?author_order. 
+
+ ?work wdt:P2093 ?author_name. 
+  
+ ?work wdt:P1476 ?title .
+ FILTER (lang(?title) = 'en') .
+ ?work wdt:P1433 ?container .
+ ?container rdfs:label ?container_label .
+ FILTER (lang(?container_label) ='en').
+}
+ORDER BY (xsd:integer(?author_order))`;
+			
+			console.log(sparql);
+	
+			$.getJSON('https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=' + encodeURIComponent(sparql),
+				function(data){
+				  if (data.results.bindings.length > 0) {
+				      var rows = {};
+				      
+				      for (var i in data.results.bindings) {
+				         var work = data.results.bindings[i].work.value;
+				         work = work.replace("http://www.wikidata.org/entity/", "");
+						 if (!rows[work]) {
+							rows[work] = {};
+							rows[work].authors = [];
+						 }				      
+					  
+						  if (data.results.bindings[i].title) {
+							rows[work].title = data.results.bindings[i].title.value;
+						  }
+						  
+			  			 if (data.results.bindings[i].container_label) {
+							rows[work].container_label = data.results.bindings[i].container_label.value;
+						  }
+
+			  			 if (data.results.bindings[i].author_order) {
+			  			    var k = data.results.bindings[i].author_order.value;
+			  			    var v = data.results.bindings[i].author_name.value;
+			  			 	rows[work].authors.push(v);
+			  			 	
+			  			 	if (v === name) {
+			  			 		rows[work].cmd = work + '|' + k + '|' + v;
+			  			 	
+			  			 	}
+			  			 	
+			  			 	
+			  			 	
+						  }
+									  
+						}
+										  
+				     var html = '';
+				     
+				     alert(JSON.stringify(rows));
+				     
+				     html += '<table>';
+				     for (var i in rows)
+				     {
+				     	html += '<tr>';
+				     	
+				     	html += '<td>';
+				     	html += '<input type="checkbox">';
+				     	html += '</td>';
+
+				     	html += '<td>';
+				     	html += rows[i].cmd;
+				     	html += '</td>';
+
+				     	
+				     	html += '<td>';
+				     	for (var j in rows[i].authors) {
+				     		if (rows[i].authors[j] === name) {
+				     			html += '<b>';
+				     		}
+				     		html += rows[i].authors[j] + ' ';
+				     		if (rows[i].authors[j] === name) {
+				     			html += '</b>';
+				     		}
+				     	
+				     	}
+				     	html += '</td>';
+				     	
+				     	html += '<td>' + rows[i].title + ' ' 
+				     	+  '<b>' + rows[i].container_label + '</b>' 
+				     	+ '</td>';
+				     	
+				     	
+				     	html += '</tr>';
+				     
+				     }
+					html += '</table>';
+						 
+						 
+				  } else {
+				     html = '';         
+				  }
+				  
+				  document.getElementById(element_id).innerHTML = html;
+			});			
+
+		}  
+		
+</script>			
+
+</head>
+<body>
+<h1>Match authors</h1>
+
+<div>
+	<form action="alahero.php">
+		<input style="font-size:20px;height:36px;" id="search" placeholder="R. B. Halliday" name="q" value="R. B. Halliday"/>
+	</form>
+	
+</div>
+
+<div>
+
+	<div id="candidates"></div>
+	
+	<script> wikidata_author_name("Y. Dai","candidates");</script>
+</body>
+</html>

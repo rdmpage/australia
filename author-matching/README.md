@@ -1,5 +1,70 @@
 # Matching author names
 
+
+See also https://www.wikidata.org/wiki/Wikidata:WikiProject_Taxonomy
+
+## Matching authors work flow
+
+- Build local ZooBank database and local triple store (oz-zoobank)
+
+- Get list of relevant ZooBank publication identifiers, for example from Wikidata:
+
+```
+select ?item 
+where
+{
+  # ZooBank publications
+  ?item wdt:P2007 ?zb .
+  
+  # From Zootaxa
+  ?item wdt:P1433 ?container .
+  ?container rdfs:label "Zootaxa"@en .
+  
+  # 2001
+  ?item wdt:P577 ?publicationDate .
+  FILTER (YEAR(?publicationDate) = 2001)
+  
+}
+```
+[Try it](https://w.wiki/6Uu)
+
+- Run ```./tojsonld.php``` on that list of ZooBank identifiers, output as triples using my schema.
+
+- Upload triples to local ZooBank triple store 
+
+```
+curl http://localhost:32775/blazegraph/namespace/alec/sparql?context-uri=https://wikidata.org -H 'Content-Type: text/rdf+n3' --data-binary '@w.nt'  --progress-bar | tee /dev/null
+```
+
+- Run ```./query.php``` to match authors in ZooBank and Wikidata using publication and authorities identifiers. This generates Quickstatements to convert author strings to things, and dumps list of authors that should have ZooBank author ids but don’t.
+
+### Finding candidates and measuring progress
+
+This query finds Wikispecies authors in Wikidata that are likely to be taxonomists (e.g., arachnologists) and sees which ones have ZooBank author ids in their Wikidata records.
+
+```
+#Items with a Wikispecies sitelink
+#illustrates sitelink selection, ";" notation
+SELECT ?item ?itemLabel ?article ?zoobank
+WHERE
+{
+    # Wikispecies articles
+	?article 	schema:about ?item ;
+	schema:isPartOf <https://species.wikimedia.org/> .
+    ?item wdt:P31 wd:Q5 .
+  
+    # only include people flagged as arachnologists
+    ?item wdt:P106 wd:Q17344952 .
+  
+    # Do they have a ZooBank author ID?
+    OPTIONAL { ?item wdt:P2006 ?zoobank . }
+  
+	SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" }
+}
+
+```
+[Try it](https://w.wiki/6bf)
+
 ## ZooBank
 
 Build a local KG for ZooBank publications. For those of interest, fetch from WikiData, convert to LD, and add to KG. Query to find missing authors, see if these authors exist in Wikidata, add links to articles.
@@ -98,6 +163,30 @@ curl http://localhost:32775/blazegraph/namespace/alec/sparql?context-uri=https:/
 ```
 
 
+### Identifiers for people who publish on Australian taxonomy
+
+```
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE
+{ ?work wdt:P6982 ?afd .
+  
+  {
+    ?work wdt:P50 ?author .
+    ?author rdfs:label ?name .
+    FILTER (lang(?name) = 'en')
+    
+  OPTIONAL {
+    ?author wdt:P496 ?orcid .
+   }
+  }
+  UNION
+    {
+      ?work wdt:P2093 ?name .
+  }
+   
+}
+```
+
 ## Details
 
 ```
@@ -183,7 +272,7 @@ GROUP BY ?gender ?gender_label
 ```
 [Try it](https://w.wiki/6Pa)
 
-### Authors with ORCIDs
+### Authors in AFD with ORCIDs
 
 ```
 SELECT DISTINCT ?author ?name (IRI(CONCAT("https://orcid.org/",?orcid)) AS ?orcid_url) WHERE
@@ -199,6 +288,8 @@ SELECT DISTINCT ?author ?name (IRI(CONCAT("https://orcid.org/",?orcid)) AS ?orci
 }
 ORDER BY ?name
 ```
+[Try it](https://w.wiki/6EP)
+
 
 ### Birth dates
 
