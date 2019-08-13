@@ -33,7 +33,7 @@ where
 - Upload triples to local ZooBank triple store 
 
 ```
-curl http://localhost:32775/blazegraph/namespace/alec/sparql?context-uri=https://wikidata.org -H 'Content-Type: text/rdf+n3' --data-binary '@w.nt'  --progress-bar | tee /dev/null
+curl http://localhost:32768/blazegraph/namespace/alec/sparql?context-uri=https://wikidata.org -H 'Content-Type: text/rdf+n3' --data-binary '@zoobank-wikidata.nt'  --progress-bar | tee /dev/null
 ```
 
 - Run ```./query.php``` to match authors in ZooBank and Wikidata using publication and authorities identifiers. This generates Quickstatements to convert author strings to things, and dumps list of authors that should have ZooBank author ids but don’t.
@@ -63,7 +63,7 @@ WHERE
 }
 
 ```
-[Try it](https://w.wiki/6bf)
+[Try it](https://w.wiki/6vn)
 
 ## ZooBank
 

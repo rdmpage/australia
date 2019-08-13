@@ -1,0 +1,16 @@
+Examples
+
+
+Yay
+
+https://doi.org/10.3099/0006-9698(2004)512[1:TLANSO]2.0.CO;2
+https://doi.org/10.1636/H05-86.1
+
+
+Fail
+
+https://doi.org/10.3417/1055-3177(2007)17[1:ASOCSS]2.0.CO;2
+
+Ah, BHL doesn't have this DOI!
+
+

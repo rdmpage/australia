@@ -1,0 +1,34 @@
+Who works on Australian taxonomy?
+
+- people (string to thing)
+- ORCIDs
+- other identifiers
+- images
+- expertise (papers published)
+- taxa worked on
+- specimens collected
+
+What do we know about them?
+
+- nationality
+- age
+- gender
+- where they publish
+- how any on social media
+- affiliations (museums versus universities)
+
+
+What taxa lack recent work/expertise?
+
+- query by taxa
+
+
+Interfaces
+
+- Browse by letter
+- Search by name
+
+
+- card with name, avataar, ORCID
+
+
