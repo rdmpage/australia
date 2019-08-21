@@ -1,0 +1,24 @@
+
+
+Tracking Unpaywall traffic
+
+As a matter of urgency it would be greta if BHL could determine, either from its web server logs or from Google Analytics where it can recognise Unpaywall as a source of web traffic. Assuming that it can, this should be tracked so that BHL assess whether Unpaywall is bringing new traffic to BHL. 
+
+User experience
+
+BHL has been fortunate in that Unpaywall have modified how their code works specifically to accomodate BHL's lack of PDFs. Normally clicking on the Unpaywall icon takes the user directly to a PDF of the article they wish to view. This is the user experience people expect, and meets their needs ("I want to read the article now") in the simplest way. 
+
+At the moment Unpaywall - by special arrangement - takes the user to the BHL landing page for the article. This page provides a link to the article, but this link unlikely to be  particularly obvious to a casual. Furthermore, the link doesn't take the user directly to a PDF but rather the BHL viewer, which gives them the option of manually constructing a PDF that is emailed to the user! Compared to any modern journal publisher, this is hopelessly clunky. BHL should have these PDFs pre-generated, and make them discoverable via the appropriate meta tags in the landing page so that the user is transported directly to the article that they want to read. 
+
+Given that it may take some time to implement pre-generated PDFs, it would improve the current experience a lot if the landing page made the "View article" link more prominent, for example by including a thumbnail preview of the first page in the article (much like appears in the list of items for a title).
+
+Missing DOIs
+
+In initial experiments we've noticed that some DOIs for articles that are in BHL don't yield the green "unlock" symbol in Unpaywall. It appears that BHL has not harvested all the DOIs that are in BioStor. For example, the DOI https://doi.org/10.3417/1055-3177(2007)17[1:ASOCSS]2.0.CO;2  is in BHL but without a DOI, whereas the same article in BioStor does have a DOI. 
+
+The list of DOIs that BHL has from BioStor needs to be refreshed. It may be that there's a bug in BioStor that has meant some articles haven't been harvested correctly.
+
+
+
+
+
