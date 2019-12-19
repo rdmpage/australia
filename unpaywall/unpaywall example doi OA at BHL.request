@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>baseURL</key>
-	<string>https://api.oadoi.org/v2/10.3897/mycokeys.54.34362?email=unpaywall@impactstory.org</string>
+	<string>https://api.oadoi.org/v2/10.5962/bhl.part.79488?email=unpaywall@impactstory.org</string>
 	<key>followRedirect</key>
 	<true/>
 	<key>handleJSONPCallbacks</key>

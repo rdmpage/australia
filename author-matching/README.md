@@ -1,6 +1,15 @@
 # Matching author names
 
 
+## Examples to explore
+
+### Duplicates in Wikidata (how can we detect these?)
+
+Laure Corbari https://www.wikidata.org/wiki/Q21389655 and https://www.wikidata.org/wiki/Q54528078
+
+
+
+
 See also https://www.wikidata.org/wiki/Wikidata:WikiProject_Taxonomy
 
 ## Matching authors work flow

@@ -2709,9 +2709,41 @@ $uuids=array(
 'ED1BB375-B627-420D-BE59-85ED2D9458BB'
 );	
 
+/*
 $uuids=array(
 'D38C7C2E-23A3-48B3-B98D-77BF8E39B80F'
 );
+
+$uuids = array(
+'C7B1462F-8B78-451D-9185-0969F2550DD7',
+'B27A2B75-D01C-4CC8-925A-0EFCCC787852',
+'01FD6F4E-3DDE-45D2-BA46-5B7B7EBDE1FA',
+'815B258C-2E34-46C2-9A4E-DEDC9A1117B3',
+'D244FC75-8163-49C4-BF9C-770F849D77A8',
+'5312048D-2AB7-4237-9B1F-05592A37825B',
+'80AD46BD-A2DB-4AB8-807C-8109947D0F22',
+'EDB2832E-1F28-42F0-BFB8-DB7B7F2E23EB',
+'5373FE48-73F4-4B77-8380-42BC3E350003',
+'E3EA5FD6-2678-4BF3-B853-693A9C444FE4',
+'F2C23E46-B439-4BDF-8B72-4AB7B627CFF7',
+'74F85CD0-662B-43FE-8F38-4DDF6CF6F322',
+'4B054ACF-389D-4D5F-AA59-836B5B929AEE',
+'EDAFEE9E-FACF-4631-ADE7-885C37985711',
+'70E51C6D-1BAC-413C-88B5-5A83C161C4EA',
+'E438069A-64B9-4094-BB1A-226FCE825DC9',
+'90E5CD0E-12BA-40DB-915F-9F073390E8CD',
+'C65460E5-5AD6-4238-9C93-EF82E199832F',
+'F0899A8E-53F7-4AE1-980F-CA0E6F66AEB1',
+'7796FEF4-CFE2-4A31-90E6-313EA34BC8C9',
+'60648A8F-CA44-41D5-A669-D24C0EC7D4F7',
+'2F55C24A-96B9-465B-BF4D-CBEEE831583B',
+'93F968D7-0CD5-426A-8877-3927E8D8F9E6',
+'1ABEFCE0-C401-47AD-AAB8-81C5A327F41B',
+
+
+);	
+*/
+
 
 $statements = array();
 
@@ -2989,6 +3021,10 @@ foreach ($uuids as $zoobank)
 	
 //print_r($statements);
 
+echo "----------------------------------------\n";
+echo "   Quickstatements to add to Wikidata   \n";
+echo "----------------------------------------\n";
+
 $quickstaments = '';
 
 foreach ($statements as $st)
@@ -2996,6 +3032,10 @@ foreach ($statements as $st)
 	$quickstatments .= join("\t", $st) . "\n";
 }
 echo $quickstatments;
+
+echo "----------------------------------------\n";
+echo " Authors that are missing from Wikidata \n";
+echo "----------------------------------------\n";
 
 print_r($missing);
 

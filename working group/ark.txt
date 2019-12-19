@@ -1,0 +1,40 @@
+ARK
+
+Gallica
+
+ark:/12148/bpt6k6137380h/f73
+
+https://n2t.net/ark:/12148/bpt6k6137380h/f73
+
+
+
+Internet Archive ARK for an item
+
+ark:/13960/t0ns8kd8x
+
+https://n2t.net/ark:/13960/t0ns8kd8x
+
+Resolve a DOI using n2t.net
+
+10.1080/00379271.2002.10697350
+
+https://n2t.net/doi:/10.1080/00379271.2002.10697350
+
+
+DOIs for JSTOR and Systematic Biology content
+
+https://doi.org/10.1093/sysbio/41.1.4 https://academic.oup.com/sysbio/article-abstract/41/1/4/1617360?redirectedFrom=fulltext
+
+https://doi.org/10.2307/2992502 https://www.jstor.org/stable/2992502?origin=crossref&seq=1#metadata_info_tab_contents
+
+
+
+ARK and DOI
+
+ark:/12148/bpt6k6141419b/f83
+
+10.1080/00379271.2002.10697352
+
+
+
+
