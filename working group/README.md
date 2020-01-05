@@ -6,7 +6,9 @@
 - Unpaywall
 - publisher - commercial publisher, or society or other body that holds rights to content
 
+## What do DOIs identify?
 
+DOIs can identify articles, or parts of articles, for example [https://doi.org/10.17658/issn.2058-5462/issue-14/kdootson/p2](https://doi.org/10.17658/issn.2058-5462/issue-14/kdootson/p2) is a paragraph level identifier.
 
 ## BHL minting identifiers for content
 
